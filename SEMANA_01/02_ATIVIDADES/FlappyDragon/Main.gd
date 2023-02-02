@@ -1,9 +1,9 @@
 extends Node # instancia a classe Node2D
 
-var status = 1
-var vscore = 0
-var x = 3.5
-var y = 3.5
+var status = 1 # funcionando ou não
+var vscore = 0 # pontos
+var x = 3.5 # deslocamento horizontal
+var y = 3.5 # deslocamento vertical
 
 # executa essa função ao carregar o jogo
 func _ready():
@@ -76,3 +76,8 @@ func _on_columns_body_shape_exited(body_id, body, body_shape, local_shape):
 		$score.set_text(str(vscore)) # atualiza o painel
 		
 
+# comentários:
+# Status: define se está "jogando" ou "parado", respectivamente 1 ou 0.
+# Vscore é a quantidade de pontos que faz. Aumenta +1 a cada obstáculo atravessado.
+# X é a posição (deslocamento) no eixo x, no caso horizontal
+# Y é a posição no eixo y, vertical.
