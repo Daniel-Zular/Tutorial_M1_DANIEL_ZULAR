@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/macacosong.mp3-539e7c6ed8a5a98ab6a835786d552e1c.mp3str"
+
+[deps]
+
+source_file="res://macacosong.mp3"
+dest_files=[ "res://.import/macacosong.mp3-539e7c6ed8a5a98ab6a835786d552e1c.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
